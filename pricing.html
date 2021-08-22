@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Photosnap Website Challenge</title>
+  </head>
+  <body>
+    <navigation class="top-nav">
+      <div class="container">
+        <div class="top-nav-logo">
+          <img
+            class="photo-snap-logo"
+            src="./assets/shared/desktop/logo.svg"
+            alt="Photo Snap Logo"
+          />
+        </div>
+
+        <div class="top-nav-list">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="stories.html">Stories</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="invite-button">
+          <button><a href="#">Get an invite</a></button>
+        </div>
+      </div>
+      <!-- END Container -->
+    </navigation>
+
+    <header class="pricing-header">
+      <div class="container">
+        <div class="pricing-header-container">
+          <div class="pricing-header-content">
+            <h1>Pricing</h1>
+            <p>
+              Create a your stories, Photosnap is a platform for photographers
+              and visual storytellers. It’s the simple way to create and share
+              your photos.
+            </p>
+          </div>
+          <!-- END Header Content -->
+
+          <div class="pricing-header-image"></div>
+        </div>
+        <!-- END Header Container -->
+      </div>
+      <!-- END Container -->
+    </header>
+
+    <div class="pricing-toggle">Monthly Yearly</div>
+
+    <section class="price-tiers">
+      <div class="price-tiers-container">
+        <div class="price-card-1">
+          <div class="price-card-1-content">
+            <h4>Basic</h4>
+            <p>
+              Includes basic usage of our platform. Recommended for new and
+              aspiring photographers.
+            </p>
+            <h2>$19.00</h2>
+            <h5>per month</h5>
+          </div>
+
+          <div class="price-plan-button-1">
+            <a href="#">Pick Plan</a>
+          </div>
+        </div>
+        <!-- END Price-Card-1 -->
+
+        <div class="price-card-2">
+          <div class="price-card-2-content">
+            <h4>Pro</h4>
+            <p>
+              More advanced features available. Recommended for photography
+              veterans and professionals.
+            </p>
+            <h2>$39.00</h2>
+            <h5>per month</h5>
+          </div>
+
+          <div class="price-plan-button-2">
+            <a href="#">Pick Plan</a>
+          </div>
+        </div>
+        <!-- END Price-Card-2 -->
+
+        <div class="price-card-3">
+          <div class="price-card-3-content">
+            <h4>Business</h4>
+            <p>
+              Additional features available such as more detailed metrics.
+              Recommended for business owners.
+            </p>
+            <h2>$99.00</h2>
+            <h5>per month</h5>
+          </div>
+
+          <div class="price-plan-button-3">
+            <a href="#">Pick Plan</a>
+          </div>
+        </div>
+        <!-- END Price-Card-3 -->
+      </div>
+      <!-- END Price Tiers Container -->
+    </section>
+    <!-- END Price Tiers -->
+
+    <!--
+   Basic: $190.00 per year
+   Pro: $390.00 per year
+   Business: $990.00 per year
+-->
+
+    <!-- Table, Widescreen Version -->
+    <h1 class="table-heading">Compare</h1>
+
+    <table class="table-widescreen">
+      <thead class="pricing-table-head">
+        <tr>
+          <th class="features">The Features</th>
+          <th class="basic">Basic</th>
+          <th class="pro">Pro</th>
+          <th class="business">Business</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Unlimited Story Posting</td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+        </tr>
+        <tr>
+          <td>Unlimited Photo Upload</td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+        </tr>
+        <tr>
+          <td>Embedding Custom Content</td>
+          <td></td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+        </tr>
+        <tr>
+          <td>Customize Metadata</td>
+          <td></td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+        </tr>
+        <tr>
+          <td>Advanced Metrics</td>
+          <td></td>
+          <td></td>
+          <td class="checked"></td>
+        </tr>
+        <tr>
+          <td>Photo Downloads</td>
+          <td></td>
+          <td></td>
+          <td class="checked"></td>
+        </tr>
+        <tr>
+          <td>Search Engine Indexing</td>
+          <td></td>
+          <td></td>
+          <td class="checked"></td>
+        </tr>
+        <tr>
+          <td>Custom Analytics</td>
+          <td></td>
+          <td></td>
+          <td class="checked"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Table, Mobile Version -->
+    <table class="table-mobile">
+      <h3>The Features</h3>
+      <hr class="features-hr">
+      <thead>
+        <h3 class="header">Unlimited Story Posting</h3>
+        <tr>
+          <td>Basic</td>
+          <td>Pro</td>
+          <td>Business</td>
+        </tr>
+      </thead>
+    </table>
+
+    <table class="table-mobile">
+      <thead>
+        <tr>
+          <td class="checked"></td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+        </tr>
+      </thead>
+    </table>
+    <hr>
+
+    <table class="table-mobile">
+      <thead>
+        <h3 class="header">Unlimited Photo Upload</h3>
+        <tr>
+          <td>Basic</td>
+          <td>Pro</td>
+          <td>Business</td>
+        </tr>
+      </thead>
+    </table>
+
+    <table class="table-mobile">
+      <thead>
+        <tr>
+          <td class="checked"></td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+        </tr>
+      </thead>
+    </table>
+    <hr>
+
+    <table class="table-mobile">
+      <thead>
+        <h3 class="header">Embedding Custom Content</h3>
+        <tr>
+          <td>Basic</td>
+          <td>Pro</td>
+          <td>Business</td>
+        </tr>
+      </thead>
+    </table>
+
+    <table class="table-mobile">
+      <thead>
+        <tr>
+          <td class="checked"></td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+        </tr>
+      </thead>
+    </table>
+    <hr>
+
+    <table class="table-mobile">
+      <thead>
+        <h3 class="header">Customize Metadata</h3>
+        <tr>
+          <td>Basic</td>
+          <td>Pro</td>
+          <td>Business</td>
+        </tr>
+      </thead>
+    </table>
+
+    <table class="table-mobile">
+      <thead>
+        <tr>
+          <td class="checked"></td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+        </tr>
+      </thead>
+    </table>
+    <hr>
+  
+    <table class="table-mobile">
+      
+      <thead>
+        <h3 class="header">Advanced Metrics</h3>
+        <tr>
+          <td>Basic</td>
+          <td>Pro</td>
+          <td>Business</td>
+        </tr>
+      </thead>
+    </table>
+
+    <table class="table-mobile">
+      <thead>
+        <tr>
+          <td class="checked"></td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+        </tr>
+      </thead>
+    </table>
+    <hr>
+
+    <table class="table-mobile">
+      <thead>
+        <h3 class="header">Photo Downloads</h3>
+        <tr>
+          <td>Basic</td>
+          <td>Pro</td>
+          <td>Business</td>
+        </tr>
+      </thead>
+    </table>
+
+    <table class="table-mobile">
+      <thead>
+        <tr>
+          <td class="checked"></td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+        </tr>
+      </thead>
+    </table>
+    <hr>
+
+    <table class="table-mobile">
+      <thead>
+        <h3 class="header">Search Engine Indexing</h3>
+        <tr>
+          <td>Basic</td>
+          <td>Pro</td>
+          <td>Business</td>
+        </tr>
+      </thead>
+    </table>
+
+    <table class="table-mobile">
+      <thead>
+        <tr>
+          <td class="checked"></td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+        </tr>
+      </thead>
+    </table>
+    <hr>
+
+    <table class="table-mobile">
+      <thead>
+        <h3 class="header">Custom Analytics</h3>
+        <tr>
+          <td>Basic</td>
+          <td>Pro</td>
+          <td>Business</td>
+        </tr>
+      </thead>
+    </table>
+
+    <table class="table-mobile">
+      <thead>
+        <tr>
+          <td class="checked"></td>
+          <td class="checked"></td>
+          <td class="checked"></td>
+        </tr>
+      </thead>
+    </table>
+    <hr>
+      <!--Unlimited Photo Upload Embedding Custom Content Customize Metadata
+      Advanced Metrics Photo Downloads Search Engine Indexing Custom Analytics -->
+    </div>
+
+    <section class="invite-section">
+      <div class="invitation">
+        <h2>We're in Beta. Get your invite today!</h2>
+      </div>    
+        
+        <div class="invite-section-link">
+          <a href="#">Get an invite  ></a></button>
+        </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+  
+        <div class="links">
+          <div class="social">
+            <div class="footer-logo">
+              <img class="photo-snap-logo" src="./assets/shared/desktop/logo.svg" alt="Photo Snap Logo">
+            </div>
+      
+            <div class="social-media">
+              <div class="facebook-logo">
+                <img class="facebook" src="./assets/shared/desktop/facebook.svg" alt="Facebook">
+              </div>
+  
+              <div class="youtube-logo">
+                <img class="youtube" src="./assets/shared/desktop/youtube.svg" alt="Youtube">
+              </div>
+  
+              <div class="twitter-logo">
+                <img class="twitter" src="./assets/shared/desktop/twitter.svg" alt="Twitter">
+              </div>
+  
+              <div class="pinterest-logo">
+                <img class="pinterest" src="./assets/shared/desktop/pinterest.svg" alt="Pinterest"> 
+              </div>
+  
+              <div class="instagram-logo">
+                <img class="instegram" src="./assets/shared/desktop/instagram.svg" alt="Instagram">     
+              </div>              
+                  
+            </div>
+          </div>
+        </div>
+    
+          <navigation class="footer-nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="stories.html">Stories</a></li>
+              <li><a href="features.html">Features</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+            </ul>
+          </navigation>        
+  
+          <div class="invite">
+            <div class="invite-footer-link">
+              <a href="#">Get an invite  ></a>
+          </div>
+    
+          <div class="copy">
+            <h5>Copyright 2019. All Rights Reserved</h5>
+          </div>
+        </div>
+      </div><!-- END Footer Container -->      
+  
+    </footer>
+  </body>
+</html>
