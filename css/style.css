@@ -192,3 +192,30 @@ header p,
   width: 50%;
   height: 75vh;
 }
+
+.features-header-image {
+  background: url("../assets/features/desktop/hero.jpg") no-repeat center
+    top/cover;
+  width: 50%;
+  height: 55vh;
+}
+
+.pricing-toggle {
+  display: none;
+}
+
+.pricing-header-image {
+  background: url("../assets/pricing/desktop/hero.jpg") no-repeat center
+    top/cover;
+  width: 50%;
+  height: 55vh;
+}
+
+.header-content,
+.features-header-content,
+.pricing-header-content {
+  background: var(--very-dark-grey);
+  width: 40%;
+  line-height: 1.5rem;
+  padding: 3rem 0;
+}
