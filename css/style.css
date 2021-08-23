@@ -67,3 +67,73 @@ p {
   font-size: 0.75rem;
   color: var(--light-grey);
 }
+
+/* Navigation */
+.top-nav .container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.top-nav-logo {
+  margin: 0 0 0 12rem;
+  width: 25%;
+}
+
+.top-nav ul {
+  display: flex;
+  margin-left: 7rem;
+}
+
+.top-nav ul li a {
+  font-weight: bold;
+  margin-right: 3rem;
+}
+
+.top-nav ul li a:hover {
+  color: var(--light-grey);
+  transition: all 750ms ease;
+}
+
+.top-nav li {
+  list-style-type: none;
+}
+
+.top-nav a {
+  font-family: "DMSans-Regular";
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--pure-black);
+  justify-self: center;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+/* Invite Button */
+.top-nav .invite-button {
+  width: 60%;
+  color: var(--very-dark-grey);
+  margin-left: 10rem;
+}
+
+.top-nav .invite-button button:hover {
+  background: var(--dark-grey);
+  transition: all 750ms ease;
+}
+
+.top-nav button {
+  padding: 0.5rem 0.75rem;
+  background: var(--pure-black);
+}
+
+.top-nav button a {
+  font-size: 0.6rem;
+  margin: 0 auto;
+  color: var(--pure-white);
+}
+
+button {
+  background: var(--very-dark-grey);
+  padding: 0 2.5rem;
+}
