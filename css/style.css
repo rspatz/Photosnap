@@ -137,3 +137,58 @@ button {
   background: var(--very-dark-grey);
   padding: 0 2.5rem;
 }
+
+/* Header */
+.header-container,
+.features-header-container,
+.pricing-header-container {
+  display: flex;
+  width: 90%;
+  margin: 0 8rem;
+}
+
+header button a {
+  color: var(--pure-black);
+}
+
+header h1,
+.features-header h1,
+.pricing-header h1 {
+  width: 70%;
+  margin: 5rem 0 1rem 5rem;
+}
+
+header p,
+.features-header p,
+.pricing-header p {
+  width: 65%;
+  margin-left: 5rem;
+}
+
+.header-link,
+.features-header-link {
+  margin: 2rem 0 0 5rem;
+}
+
+.header-link a,
+.features-header-link a {
+  color: var(--pure-white);
+  text-decoration: none;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.header-link a:hover,
+.story-link a:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 0.5rem;
+  transition: all 1000ms ease;
+}
+
+.header-image {
+  background: url("../assets/home/desktop/create-and-share.jpg") no-repeat
+    center top/cover;
+  width: 50%;
+  height: 75vh;
+}
